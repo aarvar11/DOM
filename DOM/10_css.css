@@ -1,6 +1,5 @@
 
-#showArea
-{
+#showArea {
     display: flex;
     flex-direction: column;
     width: 75%;
@@ -8,21 +7,19 @@
     margin-top: 30px;
 }
 
-#toggleButtons
-{
+#toggleButtons {
     margin: auto;
     display: flex;
     width: 20%;
     justify-content: space-evenly;
 }
 
-#toggleButtons > *
-{
+#toggleButtons > * {
     height: 50px;
     border-radius: 10px;
 }
 
-form#newContent{
+form#newContent {
     display: none;
     flex-direction: column;
     margin: auto;
@@ -30,37 +27,34 @@ form#newContent{
     align-items: center;
 }
 
-form#filterContent{
+form#filterContent {
     display: block;
     margin: auto;
 }
 
-.formRow
-{
+.formRow {
     width: 400px;
     font-size: 1.3em;
 }
 
-article.opinion{
+article.opinion {
     border: 1px solid red;
 }
 
-article.recipe{
+article.recipe {
     border: 1px solid lightskyblue;
 }
 
-article.update{
+article.update {
     border: 1px solid lightseagreen;
 }
 
-.marker
-{
+.marker {
     float:right;
     font-size: 1.5em;
 }
 
-.date
-{
+.date {
     float:left;
     font-size: 1.5em;
 }
@@ -82,26 +76,25 @@ article.update{
 }
 
 
-
-
-body{
+body {
+    
     padding: 0;
     margin: 0;
     width: 100%;
 }
 
-main{
+main {
     width: 100%;
+    
 }
 
-main h1
-{
+main h1 {
     text-align: center;
     font-size: clamp(12px, 4vw, 24px);
 }
 
 
-header{
+header {
     background-color: goldenrod;
     text-align: center;
     position: sticky;
@@ -110,10 +103,10 @@ header{
     width: 100%;
     margin: 0;
     border: 1px solid black;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-main > div#articleList
+main>  div#articleList
 {
     display:flex;
     flex-wrap: wrap;
@@ -122,7 +115,7 @@ main > div#articleList
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
-article{
+article {
     width: 30%;
     margin-left:1.5%;
     margin-right: 1.5%;
@@ -130,8 +123,6 @@ article{
     font-size: clamp(8px, 1.5vw, 12px);
     border-radius: 5px;
 }
-
-
 
 footer
 {
@@ -147,15 +138,14 @@ a:visited
     color: darkblue;
 }
 
-footer p{
+footer p {
     text-align: center;
     margin: auto;
     width: 50%;
     
 }
 
-address > div
-{
+address > div {
     display: grid;
     grid-template-columns: auto auto;
     justify-content: space-evenly;
@@ -163,7 +153,7 @@ address > div
     margin: auto;
 }
 
-nav{
+nav {
     display: flex;
     flex-wrap: nowrap;
     width: 100%;
@@ -173,8 +163,7 @@ nav{
     background-color: black;
 }
 
-nav button
-{
+nav button {
     color:white;
     background-color: blue;
     text-decoration: none;
@@ -185,11 +174,11 @@ nav button
     text-wrap-mode: nowrap;
 }
 
-nav button:hover{
+nav button:hover {
     background-color:darkgoldenrod;
 }
 
-nav button:active{
+nav button:active {
     background-color: gold;
 }
 
@@ -213,4 +202,5 @@ nav button:active{
     header{
         width: 100%;
     }
+
 }
